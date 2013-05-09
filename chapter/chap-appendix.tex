@@ -1,0 +1,163 @@
+\section{代码节选}
+\subsection{\textbf{[分布式爬虫实例]}}
+\label{code:wbcrawler}
+\begin{lstlisting}[language=java]
+/**
+ * WBContentTrigger.java
+ */
+package wbcrawler;
+
+//所有提交的触发器都需要实现HTriggerAction这个基类
+public class WBContentTrigger extends HTriggerAction{
+
+  //访问微博的凭证
+  private final String accessToken = @access_token;
+  private WritePrepared writer = null;
+
+  //初始化读写其他表中数据所用的WritePrepared实例。
+  public WBContentTrigger(){
+    byte[] tableName = "WBRelation".getBytes();
+    this.writer = new WritePrepared(tableName);
+  }
+
+  private ArrayList<String> getUsersByAPI(String msgId);
+
+  //封装好的事件对象，其中包括了触发事件的表、行以及相关列族的内容数据。
+  @Override
+  public void action(HTriggerEvent hte) {
+    byte[] msgId = hte.getRowKey();
+    byte[] msgContent = hte.getNewValue();
+    String msgContentStr = new String(msgContent);
+
+    ArrayList<String> aus = this.getUsersByAPI(new String(msgId));
+    for (String userId : aus){
+      Put p = new Put(userId.getBytes());
+      p.add("Activity".getBytes(), "recently".getBytes(),
+      		  "true".getBytes());
+      this.writer.append(p);
+    }
+    this.writer.flush();
+  }
+  //过滤器，用来判断这个事件是否应该使触发器执行。
+  @Override
+  public boolean filter(HTriggerEvent hte) {
+    return true;
+  }
+}
+\end{lstlisting}
+\begin{lstlisting}[language=java]
+/**
+ * WBUserTrigger.java
+ */
+package wbcrawler;
+public class WBUserTrigger extends HTriggerAction{
+  ...
+  ...
+  @Override
+  public void action(HTriggerEvent hte) {
+	byte[] userId = hte.getRowKey();
+	Timeline tl = new Timeline();
+	tl.client.setToken(this.accessToken);
+	StatusWapper status = tl.getUserTimelineByUid(new String(userId));
+	for (Status s:status.getStatuses()){
+		Put p = new Put(msgId);
+		p.add("Content".getBytes(), "zh".getBytes(), s.getText().getBytes());
+		writer.append(p);
+	}
+	this.writer.flush();
+  }
+  @Override
+  public boolean filter(HTriggerEvent hte) {
+    return true;
+  }
+}
+\end{lstlisting}
+
+
+\subsection{\textbf{[PageRank实现实例]}}
+\label{appendix:pagerank}
+\begin{lstlisting}[language=java]
+
+public class PageRankDist extends HTriggerAction{
+
+  private WritePrepared writer = null;
+  private ReadPrepared reader = null;
+
+  public PageRankDist(){
+    boolean isAcc = true;
+    writer = new WriterPrepared(`PageRankAcc`.getBytes(), isAcc);
+    reader = new ReadPrepared(`wbpages`.getBytes[]);
+  }
+
+  @Override
+  public void action(HTriggerEvent hte) {
+    byte[] currentPageId = hte.getRowKey();
+    float fvalue = Float.parseFloat(hte.getNewValue());
+
+    Get g = new Get(currentPageId);
+    g.addFamily("outlinks".getBytes());
+    Result r = reader.get(g);
+
+    outlinks = r.getFamilyMap("outlinks".getBytes());
+    int n = outlinks.size();
+    float weight = fvalue / n;
+
+    for (byte[] link: outlinks.values()){
+      Put p = new Put(link);
+      p.add("nodes".getBytes(), currentPageId, weight);
+      writer.append(p);
+    }
+    this.writer.flush();
+  }
+
+  @Override
+  public boolean filter(HTriggerEvent hte) {
+    byte[] nvalue = hte.getNewValue();
+    byte[] oldValue = hte.getOldValue();
+    float fnv = Float.parseFloat(new String(nvalue));
+    float fov = Float.parseFloat(new String(oldValue));
+    if (Math.abs((fnv - fov)) < 0.001){
+      return false;
+    }
+    return true;
+  }
+}
+\end{lstlisting}
+
+\begin{lstlisting}[language=java]
+
+public class PageRankAcc extends HTriggerAction{
+
+  private WritePrepared writer = null;
+  private ReadPrepared reader = null;
+
+  public PageRankAcc(){
+    writer = new WriterPrepared(`wbpages`.getBytes());
+    reader = new AccModeReader();
+  }
+
+  @Override
+  public void action(HTriggerEvent hte) {
+    byte[] pageId = hte.getRowKey();
+    Get g = new Get(pageId);
+    g.addFamily("nodes".getBytes());
+    Result r = this.reader.get(g);
+
+    nodes  = r.getFamilyMap("nodes".getBytes());
+    for (byte[] weight:nodes.values()){
+      String sw = new String(weight);
+      float fw = Float.parseFloat(sw);
+      sum += fw;
+    }
+    Put p = new Put(pageId);
+    p.add("prvalues".getBytes(), "pr".getBytes(), sum);
+    this.writer.append(p);
+    this.writer.flush();
+  }
+  @Override
+  public boolean filter(HTriggerEvent hte) {
+    return true;
+  }
+}
+
+\end{lstlisting}

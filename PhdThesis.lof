@@ -1,0 +1,57 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Hadoop系统架构\relax }}{16}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 对CPU建模的隶属度函数分布图\relax }}{18}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 对内存建模的隶属度函数分布图\relax }}{18}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 对网络建模的隶属度函数分布图\relax }}{19}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit {io.sort.mb}的隶属度函数\relax }}{20}{figure.caption.14}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 对\textit {io.sort.mb}的模糊规则表\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 系统的模糊控制系统总体图(仅列出了三个输入参数和两个输出参数)\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces 参数\textit {io.sort.mb}的模糊规则输出三维示意图\relax }}{21}{figure.caption.17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 典型的云计算环境下数据中心中存储架构图\relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces GFS文件系统的架构\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces HDFS文件系统架构图\relax }}{28}{figure.caption.24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Avatar Node架构\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Megastore架构图\relax }}{30}{figure.caption.26}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 最近十年(2001-2011)内存，磁盘，Flash单位Gb的价格趋势分析。\relax }}{31}{figure.caption.27}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces RamCloud系统图示\relax }}{33}{figure.caption.29}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RamCloud架构图}}}{33}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RamCloud Log访问的结构图}}}{33}{subfigure.7.2}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sedna机群的总体架构\relax }}{36}{figure.caption.31}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 每台Sedna服务器内部逻辑结构\relax }}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sedna虚节点环结构。其中存储着$0-R$的数据的虚节点被存储到实节点$r1$,$r2$和$r3$上\relax }}{38}{figure.caption.33}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sedna使用协调者进行多备份读写过程\relax }}{40}{figure.caption.34}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sedna中节点加入服务的流程图\relax }}{42}{figure.caption.35}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces ZooKeeper性能随着读写比率变化图\relax }}{43}{figure.caption.36}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Domino提供的基于触发的实时数据访问接口的典型应用实例\relax }}{47}{figure.caption.37}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Memcached客户端向不同的节点读写三次数据和Sedna正常读写的性能 对比\relax }}{50}{figure.caption.38}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Memcached客户端向不同的节点读写一次数据和Sedna正常读写的性能 对比\relax }}{51}{figure.caption.39}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces 多客户端和单客户端的读写性能对比(多客户端数据来自所有客户端的 性能平均)\relax }}{52}{figure.caption.40}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces ZooKeeper写延迟随着服务器数目的变化图\relax }}{53}{figure.caption.41}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces ZooKeeper读延迟随着服务器数目的变化图\relax }}{53}{figure.caption.42}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces 启动模式和安静模式下单客户端性能对比图\relax }}{54}{figure.caption.43}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces HaLoop架构图\relax }}{60}{figure.caption.44}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Twister下迭代MapReduce编程模型示意图\relax }}{61}{figure.caption.45}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Twister系统的总体架构图\relax }}{62}{figure.caption.46}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 实时MapReduce模型下map/reduce*的执行流程\relax }}{65}{figure.caption.47}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces HBase的基本数据单位：表的组成\relax }}{71}{figure.caption.48}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 最终同步的基本概念\relax }}{77}{figure.caption.50}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Domino中最终同步模型下多版本执行的流程图\relax }}{78}{figure.caption.51}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 运行在HBase集群上的Domino集群的架构图\relax }}{80}{figure.caption.52}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Domino运行时系统的模块图，每一个模块都依赖于其下面模块提供的服务\relax }}{80}{figure.caption.53}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Domino事件队列。如果两个事件属于同一个触发器，它们会整合被放入到队列中的同一个位置。队列中的顺序基于时间戳。消费者每次队列中取出属于同一个触发器的所有事件以减少频繁的进行线程切换带来的性能损失。\relax }}{83}{figure.caption.54}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Domino相关测试输入数据大小\relax }}{95}{figure.caption.61}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Domino和HBase写性能的对比图 1(Domino中无Trigger运行)\relax }}{96}{figure.caption.62}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Domino和HBase写性能的对比图 2(Domino中Trigger高频率触发)\relax }}{97}{figure.caption.63}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces PageRank、ALS、K-means算法的MapReduce实现和Domino实现的性能差别(3/9个节点)\relax }}{98}{figure.caption.64}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 递增的PageRank在Domino和MapReduce下实现的性能对比\relax }}{99}{figure.caption.65}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 

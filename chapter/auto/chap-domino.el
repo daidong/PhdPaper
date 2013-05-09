@@ -1,0 +1,27 @@
+(TeX-add-style-hook "chap-domino"
+ (lambda ()
+    (LaTeX-add-labels
+     "chapter:domino"
+     "section:intro"
+     "fig:hbase"
+     "table:wbcontent"
+     "table:wbuser"
+     "code:wbcrawler"
+     "section:sync"
+     "fig:multiv"
+     "section:design"
+     "fig:arch"
+     "subsection:feed"
+     "figs:queue"
+     "section:apps"
+     "equation:pagerank"
+     "table:tm"
+     "alg:praction"
+     "table:acc"
+     "alg:pracc"
+     "equation:als"
+     "table:rating"
+     "table:aslacc"
+     "fig:als"
+     "section:exp")))
+

@@ -1,0 +1,128 @@
+\relax 
+\@writefile{loa}{\addvspace {10\p@ }}
+\FN@pp@footnotehinttrue 
+\citation{hadoopproject}
+\citation{hbaseproject}
+\citation{hiveproject}
+\citation{hadooppowerby}
+\citation{hadooppowerby}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第二章\hspace  {0.3em}}基于模糊逻辑的异构Hadoop集群配置优化}{11}{chapter.2}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chapter:hadoop}{{二}{11}{基于模糊逻辑的异构Hadoop集群配置优化\relax }{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}引言}{11}{section.2.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces 典型的Hadoop集群的规模\cite  {hadooppowerby}\relax }}{11}{table.caption.7}}
+\newlabel{table:hadoopcluster}{{2.1}{11}{典型的Hadoop集群的规模\cite {hadooppowerby}\relax \relax }{table.caption.7}{}}
+\citation{hadooptuning}
+\citation{hadoopconfexample}
+\citation{klir1995fuzzy}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}相关背景介绍}{12}{section.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}模糊逻辑}{12}{subsection.2.2.1}}
+\newlabel{equa:zadeh}{{2.1}{13}{模糊逻辑\relax }{equation.2.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Hadoop参数分析}{13}{subsection.2.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Hadoop参数加载流程}{14}{subsection.2.2.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.2}{\ignorespaces Hadoop中参数的统计分析情况\relax }}{15}{table.caption.8}}
+\newlabel{table:hadoopvars}{{2.2}{15}{Hadoop中参数的统计分析情况\relax \relax }{table.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Hadoop系统架构\relax }}{16}{figure.caption.9}}
+\newlabel{fig:hadooparch}{{2.1}{16}{Hadoop系统架构\relax \relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}基于模糊逻辑的配置算法}{16}{section.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}运行时数据搜集}{16}{subsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}模糊控制器的实现}{17}{subsection.2.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.1}隶属度函数}{17}{subsubsection.2.3.2.1}}
+\newlabel{equa:likelyhoods}{{2.2}{17}{隶属度函数\relax }{equation.2.3.2}{}}
+\newlabel{equal:two}{{2.3}{17}{隶属度函数\relax }{equation.2.3.3}{}}
+\citation{hadoopconfexample,hadooptuning,speeduphadoop}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces 对CPU建模的隶属度函数分布图\relax }}{18}{figure.caption.10}}
+\newlabel{fig:cpulikelyhood}{{2.2}{18}{对CPU建模的隶属度函数分布图\relax \relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces 对内存建模的隶属度函数分布图\relax }}{18}{figure.caption.11}}
+\newlabel{fig:memlikelyhood}{{2.3}{18}{对内存建模的隶属度函数分布图\relax \relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces 对网络建模的隶属度函数分布图\relax }}{19}{figure.caption.12}}
+\newlabel{fig:networklikelyhood}{{2.4}{19}{对网络建模的隶属度函数分布图\relax \relax }{figure.caption.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.3}{\ignorespaces 模糊逻辑输出参数列表\relax }}{19}{table.caption.13}}
+\newlabel{table:outputvars}{{2.3}{19}{模糊逻辑输出参数列表\relax \relax }{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.2}模糊推理规则}{19}{subsubsection.2.3.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit  {io.sort.mb}的隶属度函数\relax }}{20}{figure.caption.14}}
+\newlabel{fig:iomblikely}{{2.5}{20}{\textit {io.sort.mb}的隶属度函数\relax \relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces 对\textit  {io.sort.mb}的模糊规则表\relax }}{20}{figure.caption.15}}
+\newlabel{fig:iombrule}{{2.6}{20}{对\textit {io.sort.mb}的模糊规则表\relax \relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}实验和分析}{20}{section.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Matlab仿真}{20}{subsection.2.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces 系统的模糊控制系统总体图(仅列出了三个输入参数和两个输出参数)\relax }}{20}{figure.caption.16}}
+\newlabel{fig:fis}{{2.7}{20}{系统的模糊控制系统总体图(仅列出了三个输入参数和两个输出参数)\relax \relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces 参数\textit  {io.sort.mb}的模糊规则输出三维示意图\relax }}{21}{figure.caption.17}}
+\newlabel{fig:matlab}{{2.8}{21}{参数\textit {io.sort.mb}的模糊规则输出三维示意图\relax \relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Hadoop集群实验}{21}{subsection.2.4.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2.1}同构环境实验}{21}{subsubsection.2.4.2.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.4}{\ignorespaces 同构集群的节点参数\relax }}{21}{table.caption.18}}
+\newlabel{table:machines}{{2.4}{21}{同构集群的节点参数\relax \relax }{table.caption.18}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.5}{\ignorespaces 运行25G Terasort所花费的时间\relax }}{22}{table.caption.19}}
+\newlabel{table:tera1}{{2.5}{22}{运行25G Terasort所花费的时间\relax \relax }{table.caption.19}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2.2}异构环境实验}{22}{subsubsection.2.4.2.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.6}{\ignorespaces 同构集群的节点参数\relax }}{22}{table.caption.20}}
+\newlabel{table:m2}{{2.6}{22}{同构集群的节点参数\relax \relax }{table.caption.20}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.7}{\ignorespaces 运行25G Terasort 同构和异构配置的性能对比\relax }}{22}{table.caption.21}}
+\newlabel{table:tera2}{{2.7}{22}{运行25G Terasort 同构和异构配置的性能对比\relax \relax }{table.caption.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}小结}{23}{section.2.5}}
+\FN@pp@footnotehinttrue 
+\@setckpt{chapter/chap-hadoop}{
+\setcounter{page}{24}
+\setcounter{equation}{3}
+\setcounter{enumi}{4}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{CTEX@sectiondepth}{2}
+\setcounter{part}{0}
+\setcounter{chapter}{2}
+\setcounter{section}{5}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{2}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{8}
+\setcounter{table}{7}
+\setcounter{newflo@tctr}{4}
+\setcounter{parentequation}{0}
+\setcounter{AlgoLine}{0}
+\setcounter{algocfline}{0}
+\setcounter{algocfproc}{0}
+\setcounter{algocf}{0}
+\setcounter{ContinuedFloat}{0}
+\setcounter{KVtest}{0}
+\setcounter{subfigure}{0}
+\setcounter{subfigure@save}{0}
+\setcounter{lofdepth}{1}
+\setcounter{subtable}{0}
+\setcounter{subtable@save}{0}
+\setcounter{lotdepth}{1}
+\setcounter{float@type}{8}
+\setcounter{pp@next@reset}{1}
+\setcounter{@fnserial}{0}
+\setcounter{Item}{29}
+\setcounter{Hfootnote}{0}
+\setcounter{Hy@AnnotLevel}{0}
+\setcounter{bookmark@seq@number}{26}
+\setcounter{NAT@ctr}{0}
+\setcounter{theorem}{0}
+\setcounter{lemma}{0}
+\setcounter{example}{0}
+\setcounter{definition}{0}
+\setcounter{axiom}{0}
+\setcounter{property}{0}
+\setcounter{proposition}{0}
+\setcounter{corollary}{0}
+\setcounter{remark}{0}
+\setcounter{condition}{0}
+\setcounter{conclusion}{0}
+\setcounter{assumption}{0}
+\setcounter{prove}{0}
+\setcounter{ALC@unique}{0}
+\setcounter{ALC@line}{0}
+\setcounter{ALC@rem}{0}
+\setcounter{ALC@depth}{0}
+\setcounter{lstnumber}{1}
+\setcounter{section@level}{0}
+\setcounter{lstlisting}{0}
+}

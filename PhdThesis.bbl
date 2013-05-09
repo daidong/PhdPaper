@@ -1,0 +1,670 @@
+\begin{thebibliography}{10}
+
+\bibitem{hadooppowerby}
+HadoopFoundation.
+\newblock http://wiki.apache.org/hadoop/PoweredBy
+\unskip.
+
+\bibitem{ousterhout2010case}
+Ousterhout J, Agrawal P, Erickson D, et~al.
+\newblock The case for RAMClouds: scalable high-performance storage entirely in
+  DRAM.
+\newblock ACM SIGOPS Operating Systems Review, 2010, 43(4):92--105
+\unskip.
+
+\bibitem{cloudcomputing}
+CloudComputing.
+\newblock http://en.wikipedia.org/wiki/Cloud\_computing
+\unskip.
+
+\bibitem{amazonec2}
+Amazon.
+\newblock http://aws.amazon.com/ec2/
+\unskip.
+
+\bibitem{rackspaceiaas}
+RackSpace.
+\newblock http://www.rackspace.com/
+\unskip.
+
+\bibitem{googleappengine}
+GAE.
+\newblock Google App Engine, https://developers.google.com/appengine/
+\unskip.
+
+\bibitem{dynamoDB}
+Amazon.
+\newblock Amazon DynamoDB. aws.amazon.com/dynamodb/
+\unskip.
+
+\bibitem{Sandberg85designand}
+Sandberg R, Goldberg D, Kleiman S, et~al.
+\newblock Design and Implementation or the Sun Network Filesystem, 1985
+\unskip.
+
+\bibitem{howard1988scale}
+Howard J~H, Kazar M~L, Menees S~G, et~al.
+\newblock Scale and performance in a distributed file system.
+\newblock ACM Transactions on Computer Systems (TOCS), 1988, 6(1):51--81
+\unskip.
+
+\bibitem{ghemawat2003google}
+Ghemawat S, Gobioff H, Leung S~T.
+\newblock The Google file system.
+\newblock Proceedings of ACM SIGOPS Operating Systems Review, volume~37. ACM,
+  2003.
+\newblock  29--43
+\unskip.
+
+\bibitem{chang2008bigtable}
+Chang F, Dean J, Ghemawat S, et~al.
+\newblock Bigtable: A distributed storage system for structured data.
+\newblock ACM Transactions on Computer Systems (TOCS), 2008, 26(2):4
+\unskip.
+
+\bibitem{hadoopproject}
+Hadoop.
+\newblock http://hadoop.apache.org/
+\unskip.
+
+\bibitem{decandia2007dynamo}
+DeCandia G, Hastorun D, Jampani M, et~al.
+\newblock Dynamo: amazon's highly available key-value store.
+\newblock Proceedings of ACM SIGOPS Operating Systems Review, volume~41. ACM,
+  2007.
+\newblock  205--220
+\unskip.
+
+\bibitem{lakshman2010cassandra}
+Lakshman A, Malik P.
+\newblock Cassandra: A decentralized structured storage system.
+\newblock Operating systems review, 2010, 44(2):35
+\unskip.
+
+\bibitem{ongaro2011fast}
+Ongaro D, Rumble S, Stutsman R, et~al.
+\newblock Fast crash recovery in RAMCloud.
+\newblock Proceedings of Proceedings of the Twenty-Third ACM Symposium on
+  Operating Systems Principles. ACM, 2011.
+\newblock  29--41
+\unskip.
+
+\bibitem{dean2008mapreduce}
+Dean J, Ghemawat S.
+\newblock MapReduce: simplified data processing on large clusters.
+\newblock Communications of the ACM, 2008, 51(1):107--113
+\unskip.
+
+\bibitem{neumeyer2010s4}
+Neumeyer L, Robbins B, Nair A, et~al.
+\newblock S4: Distributed stream computing platform.
+\newblock Proceedings of Data Mining Workshops (ICDMW), 2010 IEEE International
+  Conference on. IEEE, 2010.
+\newblock  170--177
+\unskip.
+
+\bibitem{zaharia2010spark}
+Zaharia M, Chowdhury M, Franklin M, et~al.
+\newblock Spark: cluster computing with working sets.
+\newblock Proceedings of Proceedings of the 2nd USENIX conference on Hot topics
+  in cloud computing. USENIX Association, 2010.
+\newblock  10--10
+\unskip.
+
+\bibitem{low2012distributed}
+Low Y, Bickson D, Gonzalez J, et~al.
+\newblock Distributed GraphLab: a framework for machine learning and data
+  mining in the cloud.
+\newblock Proceedings of the VLDB Endowment, 2012, 5(8):716--727
+\unskip.
+
+\bibitem{isard2007dryad}
+Isard M, Budiu M, Yu Y, et~al.
+\newblock Dryad: distributed data-parallel programs from sequential building
+  blocks.
+\newblock ACM SIGOPS Operating Systems Review, 2007, 41(3):59--72
+\unskip.
+
+\bibitem{power2010piccolo}
+Power R, Li J.
+\newblock Piccolo: building fast, distributed programs with partitioned tables.
+\newblock Proceedings of Proceedings of the 9th USENIX conference on Operating
+  systems design and implementation. USENIX Association, 2010.
+\newblock  1--14
+\unskip.
+
+\bibitem{malewicz2010pregel}
+Malewicz G, Austern M, Bik A, et~al.
+\newblock Pregel: a system for large-scale graph processing.
+\newblock Proceedings of Proceedings of the 2010 international conference on
+  Management of data. ACM, 2010.
+\newblock  135--146
+\unskip.
+
+\bibitem{page1999pagerank}
+Page L, Brin S, Motwani R, et~al.
+\newblock The PageRank citation ranking: bringing order to the web.
+\newblock 1999.
+\unskip.
+
+\bibitem{hbaseproject}
+HBase Project.
+\newblock Proceedings of http://hbase.apache.org
+\unskip.
+
+\bibitem{hiveproject}
+Apache.
+\newblock http://hive.apache.org/
+\unskip.
+
+\bibitem{hadooptuning}
+Sharma S.
+\newblock
+  http://www.slideshare.net/ImpetusInfo/ppt-on-advanced-hadoop-tuning-n-optimisation
+\unskip.
+
+\bibitem{hadoopconfexample}
+[Cluster Setup:Configure Hadoop]
+  http://hadoop.apache.org/docs/r0.19.1/cluster\_setup.html
+\unskip.
+
+\bibitem{klir1995fuzzy}
+Klir G~J, Yuan B.
+\newblock Fuzzy sets and fuzzy logic.
+\newblock Prentice Hall New Jersey, 1995
+\unskip.
+
+\bibitem{speeduphadoop}
+Murthy A~C.
+\newblock Speeding up Hadoop.
+  http://developer.yahoo.com/blogs/ydn/posts/2009/09/hadoop\_summit\_speeding\_up\_hadoop
+\unskip.
+
+\bibitem{Ghemawat2003}
+Ghemawat S, Gobioff H, Leung S.
+\newblock The Google file system.
+\newblock Proceedings of ACM SIGOPS Operating Systems Review, volume~37. ACM,
+  2003.
+\newblock  29--43
+\unskip.
+
+\bibitem{nosqldatabase}
+NoSQL.
+\newblock http://nosql-database.org/
+\unskip.
+
+\bibitem{nishtala2013scaling}
+Nishtala R, Fugal H, Grimm S, et~al.
+\newblock Scaling Memcache at Facebook.
+\newblock NSDI, 2013
+\unskip.
+
+\bibitem{redis}
+Redis.
+\newblock http://redis.io/
+\unskip.
+
+\bibitem{memcachedproject}
+Memcached.
+\newblock memcached - a distributed memory object caching system,
+  memcached.org/
+\unskip.
+
+\bibitem{borthakur2011apache}
+Borthakur D, Gray J, Sarma J, et~al.
+\newblock Apache Hadoop goes realtime at Facebook.
+\newblock Proceedings of Proceedings of the 2011 international conference on
+  Management of data. ACM, 2011.
+\newblock  1071--1080
+\unskip.
+
+\bibitem{shvachko2011apache}
+Shvachko K~V.
+\newblock Apache Hadoop: The scalability update.
+\newblock login: The Magazine of USENIX, 2011, 36:7--13
+\unskip.
+
+\bibitem{mckusick2009gfs}
+McKusick M, Quinlan S.
+\newblock Gfs: Evolution on fast-forward.
+\newblock ACM Queue, 2009, 7(7):10--20
+\unskip.
+
+\bibitem{baker2011megastore}
+Baker J, Bond C, Corbett J, et~al.
+\newblock Megastore: Providing scalable, highly available storage for
+  interactive services.
+\newblock Proceedings of Proc. of CIDR, 2011.
+\newblock  223--234
+\unskip.
+
+\bibitem{gilbert2002brewer}
+Gilbert S, Lynch N.
+\newblock Brewer's conjecture and the feasibility of consistent, available,
+  partition-tolerant web services.
+\newblock ACM SIGACT News, 2002, 33(2):51--59
+\unskip.
+
+\bibitem{lamport2001paxos}
+Lamport L.
+\newblock Paxos made simple.
+\newblock ACM SIGACT News, 2001, 32(4):18--25
+\unskip.
+
+\bibitem{stoica2001chord}
+Stoica I, Morris R, Karger D, et~al.
+\newblock Chord: A scalable peer-to-peer lookup service for internet
+  applications.
+\newblock Proceedings of ACM SIGCOMM Computer Communication Review, volume~31.
+  ACM, 2001.
+\newblock  149--160
+\unskip.
+
+\bibitem{hunt2010zookeeper}
+Hunt P, Konar M, Junqueira F~P, et~al.
+\newblock ZooKeeper: wait-free coordination for internet-scale systems.
+\newblock Proceedings of Proceedings of the 2010 USENIX conference on USENIX
+  annual technical conference, volume~8, 2010.
+\newblock  11--11
+\unskip.
+
+\bibitem{junqueira2011zab}
+Junqueira F~P, Reed B~C, Serafini M.
+\newblock Zab: High-performance broadcast for primary-backup systems.
+\newblock Proceedings of Dependable Systems \& Networks (DSN), 2011 IEEE/IFIP
+  41st International Conference on. IEEE, 2011.
+\newblock  245--256
+\unskip.
+
+\bibitem{lamport2006fast}
+Lamport L.
+\newblock Fast paxos.
+\newblock Distributed Computing, 2006, 19(2):79--103
+\unskip.
+
+\bibitem{mtbf}
+MTBF.
+\newblock http://en.wikipedia.org/wiki/Mean\_time\_between\_failures
+\unskip.
+
+\bibitem{membase}
+MemBase.
+\newblock http://www.couchbase.com/membase?
+\unskip.
+
+\bibitem{bu2010haloop}
+Bu Y, Howe B, Balazinska M, et~al.
+\newblock HaLoop: Efficient iterative data processing on large clusters.
+\newblock Proceedings of the VLDB Endowment, 2010, 3(1-2):285--296
+\unskip.
+
+\bibitem{ekanayake2010twister}
+Ekanayake J, Li H, Zhang B, et~al.
+\newblock Twister: a runtime for iterative mapreduce.
+\newblock Proceedings of Proceedings of the 19th ACM International Symposium on
+  High Performance Distributed Computing. ACM, 2010.
+\newblock  810--818
+\unskip.
+
+\bibitem{bhatotia2011incoop}
+Bhatotia P, Wieder A, Rodrigues R, et~al.
+\newblock Incoop: MapReduce for incremental computations.
+\newblock Proceedings of Proceedings of the 2nd ACM Symposium on Cloud
+  Computing. ACM, 2011.
+\newblock ~7
+\unskip.
+
+\bibitem{peng2010large}
+Peng D, Dabek F.
+\newblock Large-scale incremental processing using distributed transactions and
+  notifications.
+\newblock Proceedings of Proceedings of the 9th USENIX conference on Operating
+  systems design and implementation. USENIX Association, 2010.
+\newblock  1--15
+\unskip.
+
+\bibitem{grinev2011analytics}
+Grinev M, Grineva M, Hentschel M, et~al.
+\newblock Analytics for the real-time web.
+\newblock Proceedings of the VLDB Endowment, 2011, 4(12):1391--1394
+\unskip.
+
+\bibitem{zhang2011priter}
+Zhang Y, Gao Q, Gao L, et~al.
+\newblock Priter: a distributed framework for prioritized iterative
+  computations.
+\newblock Proceedings of Proceedings of the 2nd ACM Symposium on Cloud
+  Computing. ACM, 2011.
+\newblock ~13
+\unskip.
+
+\bibitem{mitchell2012oolong}
+Mitchell C, Power R, Li J.
+\newblock Oolong: asynchronous distributed applications made easy.
+\newblock Proceedings of Proceedings of the Asia-Pacific Workshop on Systems.
+  ACM, 2012.
+\newblock ~11
+\unskip.
+
+\bibitem{Low:2012:DGF:2212351.2212354}
+Low Y, Bickson D, Gonzalez J, et~al.
+\newblock Distributed GraphLab: a framework for machine learning and data
+  mining in the cloud.
+\newblock Proc. VLDB Endow., 2012, 5(8):716--727
+\unskip.
+
+\bibitem{rabuzin2007theory}
+Rabuzin K, Malekovi{\'c} M, Lovren{\v{c}}i{\'c} A.
+\newblock The Theory of Active Databases vs. The SQL Standard.
+\newblock Proceedings of The Proceedings of 18th International Conference on
+  Information and Intelligent Systems, 2007.
+\newblock  49--54
+\unskip.
+
+\bibitem{mccarthy1989architecture}
+McCarthy D, Dayal U.
+\newblock The architecture of an active database management system.
+\newblock ACM Sigmod Record, 1989, 18(2):215--224
+\unskip.
+
+\bibitem{jaeger1999parallel}
+Jaeger U, Obermaier J.
+\newblock Parallel event detection in active database systems: The heart of the
+  matter.
+\newblock Active, Real-Time, and Temporal Database Systems, 1999. 159--175
+\unskip.
+
+\bibitem{gehani1991ode}
+Gehani N, Jagadish H.
+\newblock Ode as an active database: Constraints and triggers.
+\newblock Proceedings of Proceedings of the Seventeenth International
+  Conference on Very Large Databases (VLDB), 1991.
+\newblock  327--336
+\unskip.
+
+\bibitem{dayal1988hipac}
+Dayal U, Blaustein B, Buchmann A, et~al.
+\newblock The HiPAC project: Combining active databases and timing constraints.
+\newblock ACM Sigmod Record, 1988, 17(1):51--70
+\unskip.
+
+\bibitem{chakravarthy1994composite}
+Chakravarthy S, Krishnaprasad V, Anwar E, et~al.
+\newblock Composite events for active databases: Semantics, contexts and
+  detection.
+\newblock Proceedings of Proceedings of the international conference on very
+  large data bases. INSTITUTE OF ELECTRICAL \& ELECTRONICS ENGINEERS (IEEE),
+  1994.
+\newblock  606--606
+\unskip.
+
+\bibitem{stonebraker1988postgres}
+Stonebraker M, Hanson E, Potamianos S.
+\newblock The POSTGRES rule manager.
+\newblock Software Engineering, IEEE Transactions on, 1988, 14(7):897--907
+\unskip.
+
+\bibitem{darnovsky1987transact}
+Darnovsky M, Bowman J.
+\newblock Transact-sql user's guide.
+\newblock Sybase Inc., Doc, 1987. 3231--2
+\unskip.
+
+\bibitem{andrews1987combining}
+Andrews T, Harris C.
+\newblock Combining language and database advances in an object-oriented
+  development environment.
+\newblock Proceedings of ACM Sigplan Notices, volume~22. ACM, 1987.
+\newblock  430--440
+\unskip.
+
+\bibitem{schlageter1988oops}
+Schlageter G, Unland R, Wilkes W, et~al.
+\newblock OOPS-an object oriented programming system with integrated data
+  management facility.
+\newblock Proceedings of Data Engineering, 1988. Proceedings. Fourth
+  International Conference on. IEEE, 1988.
+\newblock  118--125
+\unskip.
+
+\bibitem{bertsekas1989parallel}
+Bertsekas D, Tsitsiklis J.
+\newblock Parallel and distributed computation.
+\newblock 1989.
+\unskip.
+
+\bibitem{gonzalez2009residual}
+Gonzalez J, Low Y, Guestrin C.
+\newblock Residual splash for optimally parallelizing belief propagation.
+\newblock Aistats, 2009
+\unskip.
+
+\bibitem{neal1998view}
+Neal R, Hinton G.
+\newblock A view of the EM algorithm that justifies incremental, sparse, and
+  other variants.
+\newblock NATO ASI SERIES D BEHAVIOURAL AND SOCIAL SCIENCES, 1998, 89:355--370
+\unskip.
+
+\bibitem{macready1996criticality}
+Macready W, Siapas A, Kauffman S.
+\newblock Criticality and parallelism in combinatorial optimization.
+\newblock SCIENCE-NEW YORK THEN WASHINGTON-, 1996. 56--58
+\unskip.
+
+\bibitem{smola2010architecture}
+Smola A, Narayanamurthy S.
+\newblock An architecture for parallel topic models.
+\newblock Proceedings of the VLDB Endowment, 2010, 3(1-2):703--710
+\unskip.
+
+\bibitem{zhou2008large}
+Zhou Y, Wilkinson D, Schreiber R, et~al.
+\newblock Large-scale parallel collaborative filtering for the netflix prize.
+\newblock Algorithmic Aspects in Information and Management, 2008. 337--348
+\unskip.
+
+\bibitem{hbaseperformance}
+HBasePerformanceEvaluation.
+\newblock http://wiki.apache.org/hadoop/Hbase/PerformanceEvaluation
+\unskip.
+
+\bibitem{mahoutproject}
+Mahout Project.
+\newblock Proceedings of http://mahout.apache.org
+\unskip.
+
+\bibitem{al2010hedera}
+Al-Fares M, Radhakrishnan S, Raghavan B, et~al.
+\newblock Hedera: Dynamic flow scheduling for data center networks.
+\newblock Proceedings of Proceedings of the 7th USENIX conference on Networked
+  systems design and implementation, 2010.
+\newblock  19--19
+\unskip.
+
+\bibitem{ananthanarayanan2012pacman}
+Ananthanarayanan G, Ghodsi A, Wang A, et~al.
+\newblock PACMan: Coordinated memory caching for parallel jobs.
+\newblock Proceedings of Proceedings of the 9th USENIX conference on Networked
+  Systems Design and Implementation. USENIX Association, 2012.
+\newblock  20--20
+\unskip.
+
+\bibitem{armbrust2010view}
+Armbrust M, Fox A, Griffith R, et~al.
+\newblock A view of cloud computing.
+\newblock Communications of the ACM, 2010, 53(4):50--58
+\unskip.
+
+\bibitem{Benson:2010:NTC:1879141.1879175}
+Benson T, Akella A, Maltz D~A.
+\newblock Network traffic characteristics of data centers in the wild.
+\newblock Proceedings of Proceedings of the 10th ACM SIGCOMM conference on
+  Internet measurement, New York, NY, USA: ACM, 2010.
+\newblock  267--280
+\unskip.
+
+\bibitem{burrows2006chubby}
+Burrows M.
+\newblock The Chubby lock service for loosely-coupled distributed systems.
+\newblock Proceedings of Proceedings of the 7th symposium on Operating systems
+  design and implementation. USENIX Association, 2006.
+\newblock  335--350
+\unskip.
+
+\bibitem{chakaravarthy2011improved}
+Chakaravarthy V, Choudhury A, Sabharwal Y.
+\newblock Improved algorithms for the distributed trigger counting problem.
+\newblock Proceedings of Parallel \& Distributed Processing Symposium (IPDPS),
+  2011 IEEE International. IEEE, 2011.
+\newblock  515--523
+\unskip.
+
+\bibitem{chowdhury2011managing}
+Chowdhury M, Zaharia M, Ma J, et~al.
+\newblock Managing data transfers in computer clusters with orchestra.
+\newblock SIGCOMM-Computer Communication Review, 2011, 41(4):98
+\unskip.
+
+\bibitem{chu2007map}
+Chu C, Kim S, Lin Y, et~al.
+\newblock Map-reduce for machine learning on multicore.
+\newblock Advances in neural information processing systems, 2007, 19:281
+\unskip.
+
+\bibitem{dai2012sedna}
+Dai D, Li X, Wang C, et~al.
+\newblock Sedna: A Memory Based Key-Value Storage System for Realtime
+  Processing in Cloud.
+\newblock Proceedings of Cluster Computing Workshops (CLUSTER WORKSHOPS), 2012
+  IEEE International Conference on. IEEE, 2012.
+\newblock  48--56
+\unskip.
+
+\bibitem{Gilbert2002}
+Gilbert S, Lynch N.
+\newblock Brewer's conjecture and the feasibility of consistent, available,
+  partition-tolerant web services.
+\newblock ACM SIGACT News, 2002, 33(2):51--59
+\unskip.
+
+\bibitem{hindman2011mesos}
+Hindman B, Konwinski A, Zaharia M, et~al.
+\newblock Mesos: A platform for fine-grained resource sharing in the data
+  center.
+\newblock Proceedings of Proceedings of the 8th USENIX conference on Networked
+  systems design and implementation. USENIX Association, 2011.
+\newblock  22--22
+\unskip.
+
+\bibitem{jiang2010performance}
+Jiang D, Ooi B, Shi L, et~al.
+\newblock The performance of mapreduce: An in-depth study.
+\newblock Proceedings of the VLDB Endowment, 2010, 3(1-2):472--483
+\unskip.
+
+\bibitem{libenzi2006linux}
+Libenzi D.
+\newblock Linux epoll patch, 2006
+\unskip.
+
+\bibitem{Oliner:2011:ACL:2076796.2082137}
+Oliner A, Ganapathi A, Xu W.
+\newblock Advances and Challenges in Log Analysis.
+\newblock Queue, 2011, 9(12):30:30--30:40
+\unskip.
+
+\bibitem{urlfacebookmemcached}
+Saab P.
+\newblock Memcache Scaling in Facebook.
+  https://www.facebook.com/note.php?noteid=39391378919, 11, 2008.
+\newblock  {\url{https://www.facebook.com/note.php?noteid=39391378919}}
+\unskip.
+
+\bibitem{vogels2009eventually}
+Vogels W.
+\newblock Eventually consistent.
+\newblock Communications of the ACM, 2009, 52(1):40--44
+\unskip.
+
+\bibitem{weil2006ceph}
+Weil S, Brandt S, Miller E, et~al.
+\newblock Ceph: A scalable, high-performance distributed file system.
+\newblock Proceedings of Proceedings of the 7th Symposium on Operating Systems
+  Design and Implementation (OSDI), 2006.
+\newblock  307--320
+\unskip.
+
+\bibitem{xie2010improving}
+Xie J, Yin S, Ruan X, et~al.
+\newblock Improving mapreduce performance through data placement in
+  heterogeneous hadoop clusters.
+\newblock Proceedings of Parallel \& Distributed Processing, Workshops and Phd
+  Forum (IPDPSW), 2010 IEEE International Symposium on. IEEE, 2010.
+\newblock  1--9
+\unskip.
+
+\bibitem{5360285}
+Xu W, Huang L, Fox A, et~al.
+\newblock Online System Problem Detection by Mining Patterns of Console Logs.
+\newblock Proceedings of Data Mining, 2009. ICDM '09. Ninth IEEE International
+  Conference on, 2009.
+\newblock  588 --597
+\unskip.
+
+\bibitem{Xu:2009:DLS:1629575.1629587}
+Xu W, Huang L, Fox A, et~al.
+\newblock Detecting large-scale system problems by mining console logs.
+\newblock Proceedings of Proceedings of the ACM SIGOPS 22nd symposium on
+  Operating systems principle, New York, NY, USA: ACM, 2009.
+\newblock  117--132
+\unskip.
+
+\bibitem{yang2007map}
+Yang H, Dasdan A, Hsiao R, et~al.
+\newblock Map-reduce-merge: simplified relational data processing on large
+  clusters.
+\newblock Proceedings of Proceedings of the 2007 ACM SIGMOD international
+  conference on Management of data. ACM, 2007.
+\newblock  1029--1040
+\unskip.
+
+\bibitem{Zaharia2010}
+Zaharia M, Borthakur D, Sen~Sarma J, et~al.
+\newblock Delay scheduling: a simple technique for achieving locality and
+  fairness in cluster scheduling.
+\newblock Proceedings of Proceedings of the 5th European conference on Computer
+  systems. ACM, 2010.
+\newblock  265--278
+\unskip.
+
+\bibitem{zaharia2011resilient}
+Zaharia M, Chowdhury M, Das T, et~al.
+\newblock Resilient distributed datasets: A fault-tolerant abstraction for
+  in-memory cluster computing.
+\newblock Proceedings of Proceedings of the 9th USENIX conference on Networked
+  Systems Design and Implementation, 2011
+\unskip.
+
+\bibitem{zaharia2011datacenter}
+Zaharia M, Hindman B, Konwinski A, et~al.
+\newblock The datacenter needs an operating system.
+\newblock Proceedings of Proceedings of the 3rd USENIX conference on Hot topics
+  in cloud computing. USENIX Association, 2011.
+\newblock  17--17
+\unskip.
+
+\bibitem{zaharia2008improving}
+Zaharia M, Konwinski A, Joseph A, et~al.
+\newblock Improving mapreduce performance in heterogeneous environments.
+\newblock Proceedings of Proceedings of the 8th USENIX conference on Operating
+  systems design and implementation, 2008.
+\newblock  29--42
+\unskip.
+
+\bibitem{stormproject}
+Storm Project.
+\newblock Proceedings of http://storm-project.net/
+\unskip.
+
+\end{thebibliography}

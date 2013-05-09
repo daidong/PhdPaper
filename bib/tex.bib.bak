@@ -1,0 +1,1060 @@
+% This file was created with JabRef 2.9.
+% Encoding: EUC_CN
+
+@INPROCEEDINGS{al2010hedera,
+  author = {Al-Fares, M. and Radhakrishnan, S. and Raghavan, B. and Huang, N.
+	and Vahdat, A.},
+  title = {Hedera: Dynamic flow scheduling for data center networks},
+  booktitle = {Proceedings of the 7th USENIX conference on Networked systems design
+	and implementation},
+  year = {2010},
+  pages = {19--19}
+}
+
+@MISC{amazonec2,
+  author = {Amazon},
+  title = {http://aws.amazon.com/ec2/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.21}
+}
+
+@MISC{dynamoDB,
+  author = {Amazon},
+  title = {Amazon DynamoDB. aws.amazon.com/dynamodb/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.29}
+}
+
+@INPROCEEDINGS{ananthanarayanan2012pacman,
+  author = {Ananthanarayanan, G. and Ghodsi, A. and Wang, A. and Borthakur, D.
+	and Kandula, S. and Shenker, S. and Stoica, I.},
+  title = {PACMan: Coordinated memory caching for parallel jobs},
+  booktitle = {Proceedings of the 9th USENIX conference on Networked Systems Design
+	and Implementation},
+  year = {2012},
+  pages = {20--20},
+  organization = {USENIX Association}
+}
+
+@INPROCEEDINGS{andrews1987combining,
+  author = {Andrews, T. and Harris, C.},
+  title = {Combining language and database advances in an object-oriented development
+	environment},
+  booktitle = {ACM Sigplan Notices},
+  year = {1987},
+  volume = {22},
+  number = {12},
+  pages = {430--440},
+  organization = {ACM}
+}
+
+@MISC{hiveproject,
+  author = {Apache},
+  title = {http://hive.apache.org/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.28}
+}
+
+@ARTICLE{armbrust2010view,
+  author = {Armbrust, M. and Fox, A. and Griffith, R. and Joseph, A.D. and Katz,
+	R. and Konwinski, A. and Lee, G. and Patterson, D. and Rabkin, A.
+	and Stoica, I. and others},
+  title = {A view of cloud computing},
+  journal = {Communications of the ACM},
+  year = {2010},
+  volume = {53},
+  pages = {50--58},
+  number = {4},
+  publisher = {ACM}
+}
+
+@INPROCEEDINGS{baker2011megastore,
+  author = {Baker, J. and Bond, C. and Corbett, J.C. and Furman, JJ and Khorlin,
+	A. and Larson, J. and L{\'e}on, J.M. and Li, Y. and Lloyd, A. and
+	Yushprakh, V.},
+  title = {Megastore: Providing scalable, highly available storage for interactive
+	services},
+  booktitle = {Proc. of CIDR},
+  year = {2011},
+  pages = {223-234},
+  url = {http://pdos.csail.mit.edu/6.824-2012/papers/jbaker-megastore.pdf}
+}
+
+@INPROCEEDINGS{Benson:2010:NTC:1879141.1879175,
+  author = {Benson, Theophilus and Akella, Aditya and Maltz, David A.},
+  title = {Network traffic characteristics of data centers in the wild},
+  booktitle = {Proceedings of the 10th ACM SIGCOMM conference on Internet measurement},
+  year = {2010},
+  series = {IMC '10},
+  pages = {267--280},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1879175},
+  doi = {10.1145/1879141.1879175},
+  isbn = {978-1-4503-0483-2},
+  keywords = {characterization, data center traffic},
+  location = {Melbourne, Australia},
+  numpages = {14},
+  url = {http://doi.acm.org/10.1145/1879141.1879175}
+}
+
+@ARTICLE{bertsekas1989parallel,
+  author = {Bertsekas, D.P. and Tsitsiklis, J.N.},
+  title = {Parallel and distributed computation},
+  year = {1989},
+  publisher = {Old Tappan, NJ (USA); Prentice Hall Inc.}
+}
+
+@INPROCEEDINGS{bhatotia2011incoop,
+  author = {Bhatotia, P. and Wieder, A. and Rodrigues, R. and Acar, U.A. and
+	Pasquin, R.},
+  title = {Incoop: MapReduce for incremental computations},
+  booktitle = {Proceedings of the 2nd ACM Symposium on Cloud Computing},
+  year = {2011},
+  pages = {7},
+  organization = {ACM},
+  url = {https://www.systems.ethz.ch/education/spring-2012/hotDMS/papers/incoop-socc11.pdf}
+}
+
+@INPROCEEDINGS{borthakur2011apache,
+  author = {Borthakur, D. and Gray, J. and Sarma, J.S. and Muthukkaruppan, K.
+	and Spiegelberg, N. and Kuang, H. and Ranganathan, K. and Molkov,
+	D. and Menon, A. and Rash, S. and others},
+  title = {Apache Hadoop goes realtime at Facebook},
+  booktitle = {Proceedings of the 2011 international conference on Management of
+	data},
+  year = {2011},
+  pages = {1071--1080},
+  organization = {ACM},
+  url = {http://oss.csie.fju.edu.tw/~tzu98/Apache%20Hadoop%20Goes%20Realtime%20at%20Facebook.pdf}
+}
+
+@ARTICLE{bu2010haloop,
+  author = {Bu, Y. and Howe, B. and Balazinska, M. and Ernst, M.D.},
+  title = {HaLoop: Efficient iterative data processing on large clusters},
+  journal = {Proceedings of the VLDB Endowment},
+  year = {2010},
+  volume = {3},
+  pages = {285--296},
+  number = {1-2},
+  publisher = {VLDB Endowment},
+  url = {http://vldb2010.org/proceedings/files/papers/R25.pdf}
+}
+
+@INPROCEEDINGS{burrows2006chubby,
+  author = {Burrows, M.},
+  title = {The Chubby lock service for loosely-coupled distributed systems},
+  booktitle = {Proceedings of the 7th symposium on Operating systems design and
+	implementation},
+  year = {2006},
+  pages = {335--350},
+  organization = {USENIX Association},
+  url = {http://www.usenix.org/event/osdi06/tech/full_papers/burrows/burrows_html/}
+}
+
+@INPROCEEDINGS{chakaravarthy2011improved,
+  author = {Chakaravarthy, V.T. and Choudhury, A.R. and Sabharwal, Y.},
+  title = {Improved algorithms for the distributed trigger counting problem},
+  booktitle = {Parallel \& Distributed Processing Symposium (IPDPS), 2011 IEEE International},
+  year = {2011},
+  pages = {515--523},
+  organization = {IEEE}
+}
+
+@INPROCEEDINGS{chakravarthy1994composite,
+  author = {Chakravarthy, S. and Krishnaprasad, V. and Anwar, E. and Kim, S.K.},
+  title = {Composite events for active databases: Semantics, contexts and detection},
+  booktitle = {Proceedings of the international conference on very large data bases},
+  year = {1994},
+  pages = {606--606},
+  organization = {INSTITUTE OF ELECTRICAL \& ELECTRONICS ENGINEERS (IEEE)}
+}
+
+@ARTICLE{chang2008bigtable,
+  author = {Chang, F. and Dean, J. and Ghemawat, S. and Hsieh, W.C. and Wallach,
+	D.A. and Burrows, M. and Chandra, T. and Fikes, A. and Gruber, R.E.},
+  title = {Bigtable: A distributed storage system for structured data},
+  journal = {ACM Transactions on Computer Systems (TOCS)},
+  year = {2008},
+  volume = {26},
+  pages = {4},
+  number = {2},
+  publisher = {ACM},
+  url = {http://static.usenix.org/event/osdi06/tech/chang/chang_html/}
+}
+
+@ARTICLE{chowdhury2011managing,
+  author = {Chowdhury, M. and Zaharia, M. and Ma, J. and Jordan, M.I. and Stoica,
+	I.},
+  title = {Managing data transfers in computer clusters with orchestra},
+  journal = {SIGCOMM-Computer Communication Review},
+  year = {2011},
+  volume = {41},
+  pages = {98},
+  number = {4}
+}
+
+@ARTICLE{chu2007map,
+  author = {Chu, C. and Kim, S.K. and Lin, Y.A. and Yu, Y.Y. and Bradski, G.
+	and Ng, A.Y. and Olukotun, K.},
+  title = {Map-reduce for machine learning on multicore},
+  journal = {Advances in neural information processing systems},
+  year = {2007},
+  volume = {19},
+  pages = {281},
+  publisher = {MIT; 1998}
+}
+
+@MISC{cloudcomputing,
+  author = {CloudComputing},
+  title = {http://en.wikipedia.org/wiki/Cloud\_computing},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.23}
+}
+
+@INPROCEEDINGS{dai2012sedna,
+  author = {Dai, D. and Li, X. and Wang, C. and Sun, M. and Zhou, X.},
+  title = {Sedna: A Memory Based Key-Value Storage System for Realtime Processing
+	in Cloud},
+  booktitle = {Cluster Computing Workshops (CLUSTER WORKSHOPS), 2012 IEEE International
+	Conference on},
+  year = {2012},
+  pages = {48--56},
+  organization = {IEEE}
+}
+
+@ARTICLE{darnovsky1987transact,
+  author = {Darnovsky, M. and Bowman, J.},
+  title = {Transact-sql user's guide},
+  journal = {Sybase Inc., Doc},
+  year = {1987},
+  pages = {3231--2}
+}
+
+@ARTICLE{dayal1988hipac,
+  author = {Dayal, U. and Blaustein, B. and Buchmann, A. and Chakravarthy, U.
+	and Hsu, M. and Ledin, R. and McCarthy, D. and Rosenthal, A. and
+	Sarin, S. and Carey, M.J. and others},
+  title = {The HiPAC project: Combining active databases and timing constraints},
+  journal = {ACM Sigmod Record},
+  year = {1988},
+  volume = {17},
+  pages = {51--70},
+  number = {1},
+  publisher = {ACM}
+}
+
+@ARTICLE{dean2008mapreduce,
+  author = {Dean, J. and Ghemawat, S.},
+  title = {MapReduce: simplified data processing on large clusters},
+  journal = {Communications of the ACM},
+  year = {2008},
+  volume = {51},
+  pages = {107--113},
+  number = {1},
+  publisher = {ACM}
+}
+
+@INPROCEEDINGS{decandia2007dynamo,
+  author = {DeCandia, G. and Hastorun, D. and Jampani, M. and Kakulapati, G.
+	and Lakshman, A. and Pilchin, A. and Sivasubramanian, S. and Vosshall,
+	P. and Vogels, W.},
+  title = {Dynamo: amazon's highly available key-value store},
+  booktitle = {ACM SIGOPS Operating Systems Review},
+  year = {2007},
+  volume = {41},
+  number = {6},
+  pages = {205--220},
+  organization = {ACM},
+  url = {http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf}
+}
+
+@INPROCEEDINGS{ekanayake2010twister,
+  author = {Ekanayake, J. and Li, H. and Zhang, B. and Gunarathne, T. and Bae,
+	S.H. and Qiu, J. and Fox, G.},
+  title = {Twister: a runtime for iterative mapreduce},
+  booktitle = {Proceedings of the 19th ACM International Symposium on High Performance
+	Distributed Computing},
+  year = {2010},
+  pages = {810--818},
+  organization = {ACM}
+}
+
+@MISC{googleappengine,
+  author = {GAE},
+  title = {Google App Engine, https://developers.google.com/appengine/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.29}
+}
+
+@INPROCEEDINGS{gehani1991ode,
+  author = {Gehani, N. and Jagadish, HV},
+  title = {Ode as an active database: Constraints and triggers},
+  booktitle = {Proceedings of the Seventeenth International Conference on Very Large
+	Databases (VLDB)},
+  year = {1991},
+  pages = {327--336}
+}
+
+@INPROCEEDINGS{Ghemawat2003,
+  author = {Ghemawat, S. and Gobioff, H. and Leung, S.T.},
+  title = {The Google file system},
+  booktitle = {ACM SIGOPS Operating Systems Review},
+  year = {2003},
+  volume = {37},
+  number = {5},
+  pages = {29--43},
+  organization = {ACM},
+  url = {ftp://121.9.13.178/PPP/ppt-hadoop/The.Google.File.System.pdf}
+}
+
+@INPROCEEDINGS{ghemawat2003google,
+  author = {Ghemawat, Sanjay and Gobioff, Howard and Leung, Shun-Tak},
+  title = {The Google file system},
+  booktitle = {ACM SIGOPS Operating Systems Review},
+  year = {2003},
+  volume = {37},
+  number = {5},
+  pages = {29--43},
+  organization = {ACM}
+}
+
+@ARTICLE{Gilbert2002,
+  author = {Gilbert, Seth and Lynch, Nancy},
+  title = {Brewer's conjecture and the feasibility of consistent, available,
+	partition-tolerant web services},
+  journal = {ACM SIGACT News},
+  year = {2002},
+  volume = {33},
+  pages = {51--59},
+  number = {2},
+  publisher = {ACM}
+}
+
+@ARTICLE{gilbert2002brewer,
+  author = {Gilbert, Seth and Lynch, Nancy},
+  title = {Brewer's conjecture and the feasibility of consistent, available,
+	partition-tolerant web services},
+  journal = {ACM SIGACT News},
+  year = {2002},
+  volume = {33},
+  pages = {51--59},
+  number = {2},
+  publisher = {ACM},
+  url = {http://www.cs.cornell.edu/courses/cs6464/2009sp/papers/brewer.pdf}
+}
+
+@INPROCEEDINGS{gonzalez2009residual,
+  author = {Gonzalez, J. and Low, Y. and Guestrin, C.},
+  title = {Residual splash for optimally parallelizing belief propagation},
+  year = {2009},
+  organization = {Aistats}
+}
+
+@ARTICLE{grinev2011analytics,
+  author = {Grinev, Maxim and Grineva, Maria and Hentschel, Martin and Kossmann,
+	Donald},
+  title = {Analytics for the real-time web},
+  journal = {Proceedings of the VLDB Endowment},
+  year = {2011},
+  volume = {4},
+  pages = {1391--1394},
+  number = {12}
+}
+
+@MISC{hadoopproject,
+  author = {Hadoop},
+  title = {http://hadoop.apache.org/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.21}
+}
+
+@MISC{hadooppowerby,
+  author = {HadoopFoundation},
+  title = {http://wiki.apache.org/hadoop/PoweredBy},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.28}
+}
+
+@MISC{hbaseperformance,
+  author = {HBasePerformanceEvaluation},
+  title = {http://wiki.apache.org/hadoop/Hbase/PerformanceEvaluation},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.22}
+}
+
+@INPROCEEDINGS{hindman2011mesos,
+  author = {Hindman, B. and Konwinski, A. and Zaharia, M. and Ghodsi, A. and
+	Joseph, A.D. and Katz, R. and Shenker, S. and Stoica, I.},
+  title = {Mesos: A platform for fine-grained resource sharing in the data center},
+  booktitle = {Proceedings of the 8th USENIX conference on Networked systems design
+	and implementation},
+  year = {2011},
+  pages = {22--22},
+  organization = {USENIX Association}
+}
+
+@ARTICLE{howard1988scale,
+  author = {Howard, John H and Kazar, Michael L and Menees, Sherri G and Nichols,
+	David A and Satyanarayanan, Mahadev and Sidebotham, Robert N and
+	West, Michael J},
+  title = {Scale and performance in a distributed file system},
+  journal = {ACM Transactions on Computer Systems (TOCS)},
+  year = {1988},
+  volume = {6},
+  pages = {51--81},
+  number = {1},
+  publisher = {ACM}
+}
+
+@INPROCEEDINGS{hunt2010zookeeper,
+  author = {Hunt, Patrick and Konar, Mahadev and Junqueira, Flavio P and Reed,
+	Benjamin},
+  title = {ZooKeeper: wait-free coordination for internet-scale systems},
+  booktitle = {Proceedings of the 2010 USENIX conference on USENIX annual technical
+	conference},
+  year = {2010},
+  volume = {8},
+  pages = {11--11}
+}
+
+@ARTICLE{isard2007dryad,
+  author = {Isard, M. and Budiu, M. and Yu, Y. and Birrell, A. and Fetterly,
+	D.},
+  title = {Dryad: distributed data-parallel programs from sequential building
+	blocks},
+  journal = {ACM SIGOPS Operating Systems Review},
+  year = {2007},
+  volume = {41},
+  pages = {59--72},
+  number = {3},
+  publisher = {ACM}
+}
+
+@ARTICLE{jaeger1999parallel,
+  author = {Jaeger, U. and Obermaier, J.},
+  title = {Parallel event detection in active database systems: The heart of
+	the matter},
+  journal = {Active, Real-Time, and Temporal Database Systems},
+  year = {1999},
+  pages = {159--175},
+  publisher = {Springer}
+}
+
+@ARTICLE{jiang2010performance,
+  author = {Jiang, D. and Ooi, B.C. and Shi, L. and Wu, S.},
+  title = {The performance of mapreduce: An in-depth study},
+  journal = {Proceedings of the VLDB Endowment},
+  year = {2010},
+  volume = {3},
+  pages = {472--483},
+  number = {1-2},
+  publisher = {VLDB Endowment}
+}
+
+@INPROCEEDINGS{junqueira2011zab,
+  author = {Junqueira, Flavio P and Reed, Benjamin C and Serafini, Marco},
+  title = {Zab: High-performance broadcast for primary-backup systems},
+  booktitle = {Dependable Systems \& Networks (DSN), 2011 IEEE/IFIP 41st International
+	Conference on},
+  year = {2011},
+  pages = {245--256},
+  organization = {IEEE}
+}
+
+@BOOK{klir1995fuzzy,
+  title = {Fuzzy sets and fuzzy logic},
+  publisher = {Prentice Hall New Jersey},
+  year = {1995},
+  author = {Klir, George J and Yuan, Bo}
+}
+
+@ARTICLE{lakshman2010cassandra,
+  author = {Lakshman, A. and Malik, P.},
+  title = {Cassandra: A decentralized structured storage system},
+  journal = {Operating systems review},
+  year = {2010},
+  volume = {44},
+  pages = {35},
+  number = {2},
+  url = {http://www.cs.cornell.edu/Projects/ladis2009/papers/Lakshman-ladis2009.PDF}
+}
+
+@ARTICLE{lamport2006fast,
+  author = {Lamport, Leslie},
+  title = {Fast paxos},
+  journal = {Distributed Computing},
+  year = {2006},
+  volume = {19},
+  pages = {79--103},
+  number = {2},
+  publisher = {Springer}
+}
+
+@ARTICLE{lamport2001paxos,
+  author = {Lamport, Leslie},
+  title = {Paxos made simple},
+  journal = {ACM SIGACT News},
+  year = {2001},
+  volume = {32},
+  pages = {18--25},
+  number = {4}
+}
+
+@MISC{libenzi2006linux,
+  author = {Libenzi, D.},
+  title = {Linux epoll patch},
+  year = {2006}
+}
+
+@ARTICLE{low2012distributed,
+  author = {Low, Y. and Bickson, D. and Gonzalez, J. and Guestrin, C. and Kyrola,
+	A. and Hellerstein, J.M.},
+  title = {Distributed GraphLab: a framework for machine learning and data mining
+	in the cloud},
+  journal = {Proceedings of the VLDB Endowment},
+  year = {2012},
+  volume = {5},
+  pages = {716--727},
+  number = {8},
+  publisher = {VLDB Endowment},
+  url = {http://arxiv.org/pdf/1204.6078}
+}
+
+@ARTICLE{Low:2012:DGF:2212351.2212354,
+  author = {Low, Yucheng and Bickson, Danny and Gonzalez, Joseph and Guestrin,
+	Carlos and Kyrola, Aapo and Hellerstein, Joseph M.},
+  title = {Distributed GraphLab: a framework for machine learning and data mining
+	in the cloud},
+  journal = {Proc. VLDB Endow.},
+  year = {2012},
+  volume = {5},
+  pages = {716--727},
+  number = {8},
+  month = apr,
+  acmid = {2212354},
+  issn = {2150-8097},
+  issue_date = {April 2012},
+  numpages = {12},
+  publisher = {VLDB Endowment},
+  url = {http://dl.acm.org/citation.cfm?id=2212351.2212354}
+}
+
+@ARTICLE{macready1996criticality,
+  author = {Macready, W.G. and Siapas, A.G. and Kauffman, S.A.},
+  title = {Criticality and parallelism in combinatorial optimization},
+  journal = {SCIENCE-NEW YORK THEN WASHINGTON-},
+  year = {1996},
+  pages = {56--58},
+  publisher = {American Association for the Advancement of Science}
+}
+
+@INPROCEEDINGS{malewicz2010pregel,
+  author = {Malewicz, G. and Austern, M.H. and Bik, A.J.C. and Dehnert, J.C.
+	and Horn, I. and Leiser, N. and Czajkowski, G.},
+  title = {Pregel: a system for large-scale graph processing},
+  booktitle = {Proceedings of the 2010 international conference on Management of
+	data},
+  year = {2010},
+  pages = {135--146},
+  organization = {ACM}
+}
+
+@ARTICLE{mccarthy1989architecture,
+  author = {McCarthy, D. and Dayal, U.},
+  title = {The architecture of an active database management system},
+  journal = {ACM Sigmod Record},
+  year = {1989},
+  volume = {18},
+  pages = {215--224},
+  number = {2},
+  publisher = {ACM}
+}
+
+@ARTICLE{mckusick2009gfs,
+  author = {McKusick, M.K. and Quinlan, S.},
+  title = {Gfs: Evolution on fast-forward},
+  journal = {ACM Queue},
+  year = {2009},
+  volume = {7},
+  pages = {10--20},
+  number = {7},
+  url = {http://queue.acm.org/detail.cfm?id=1594206}
+}
+
+@MISC{membase,
+  author = {Membase},
+  title = {http://www.couchbase.com/membase},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.05.08}
+}
+
+@MISC{memcachedproject,
+  author = {Memcached},
+  title = {memcached - a distributed memory object caching system, memcached.org/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.29}
+}
+
+@INPROCEEDINGS{mitchell2012oolong,
+  author = {Mitchell, C. and Power, R. and Li, J.},
+  title = {Oolong: asynchronous distributed applications made easy},
+  booktitle = {Proceedings of the Asia-Pacific Workshop on Systems},
+  year = {2012},
+  pages = {11},
+  organization = {ACM},
+  file = {:/Users/daidong/Downloads/apsys2012-final28.pdf:PDF},
+  url = {https://apsys2012.kaist.ac.kr/media/papers/apsys2012-final28.pdf}
+}
+
+@MISC{mtbf,
+  author = {MTBF},
+  title = {http://en.wikipedia.org/wiki/Mean\_time\_between\_failures},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.29}
+}
+
+@MISC{speeduphadoop,
+  author = {Arun C. Murthy},
+  title = {Speeding up Hadoop. http://developer.yahoo.com/blogs/ydn/posts/2009/09/hadoop\_summit\_speeding\_up\_hadoop},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.28}
+}
+
+@ARTICLE{neal1998view,
+  author = {Neal, R.M. and Hinton, G.E.},
+  title = {A view of the EM algorithm that justifies incremental, sparse, and
+	other variants},
+  journal = {NATO ASI SERIES D BEHAVIOURAL AND SOCIAL SCIENCES},
+  year = {1998},
+  volume = {89},
+  pages = {355--370},
+  publisher = {Kluwer Academic Publishers}
+}
+
+@INPROCEEDINGS{neumeyer2010s4,
+  author = {Neumeyer, L. and Robbins, B. and Nair, A. and Kesari, A.},
+  title = {S4: Distributed stream computing platform},
+  booktitle = {Data Mining Workshops (ICDMW), 2010 IEEE International Conference
+	on},
+  year = {2010},
+  pages = {170--177},
+  organization = {IEEE},
+  file = {:/Users/daidong/Downloads/2010-s4.pdf:PDF}
+}
+
+@INPROCEEDINGS{nishtala2013scaling,
+  author = {Nishtala, Rajesh and Fugal, Hans and Grimm, Steven and Kwiatkowski,
+	Marc and Lee, Herman and Li, C and McElroy, Ryan and Paleczny, Mike
+	and Peek, Daniel and Saab, Paul and others},
+  title = {Scaling Memcache at Facebook},
+  year = {2013},
+  organization = {NSDI}
+}
+
+@MISC{nosqldatabase,
+  author = {NoSQL},
+  title = {http://nosql-database.org/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.05.06}
+}
+
+@ARTICLE{Oliner:2011:ACL:2076796.2082137,
+  author = {Oliner, Adam and Ganapathi, Archana and Xu, Wei},
+  title = {Advances and Challenges in Log Analysis},
+  journal = {Queue},
+  year = {2011},
+  volume = {9},
+  pages = {30:30--30:40},
+  number = {12},
+  month = dec,
+  acmid = {2082137},
+  address = {New York, NY, USA},
+  articleno = {30},
+  doi = {10.1145/2076796.2082137},
+  issn = {1542-7730},
+  issue_date = {December 2011},
+  numpages = {11},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/2076796.2082137}
+}
+
+@INPROCEEDINGS{ongaro2011fast,
+  author = {Ongaro, D. and Rumble, S.M. and Stutsman, R. and Ousterhout, J. and
+	Rosenblum, M.},
+  title = {Fast crash recovery in RAMCloud},
+  booktitle = {Proceedings of the Twenty-Third ACM Symposium on Operating Systems
+	Principles},
+  year = {2011},
+  pages = {29--41},
+  organization = {ACM},
+  url = {http://www.cs.columbia.edu/~junfeng/11fa-e6121/papers/ramcloud-recovery.pdf}
+}
+
+@ARTICLE{ousterhout2010case,
+  author = {Ousterhout, J. and Agrawal, P. and Erickson, D. and Kozyrakis, C.
+	and Leverich, J. and Mazi{\`e}res, D. and Mitra, S. and Narayanan,
+	A. and Parulkar, G. and Rosenblum, M. and others},
+  title = {The case for RAMClouds: scalable high-performance storage entirely
+	in DRAM},
+  journal = {ACM SIGOPS Operating Systems Review},
+  year = {2010},
+  volume = {43},
+  pages = {92--105},
+  number = {4},
+  publisher = {ACM},
+  url = {http://ilpubs.stanford.edu:8090/942/1/ramcloud.pdf}
+}
+
+@ARTICLE{page1999pagerank,
+  author = {Page, Lawrence and Brin, Sergey and Motwani, Rajeev and Winograd,
+	Terry},
+  title = {The PageRank citation ranking: bringing order to the web.},
+  year = {1999},
+  publisher = {Stanford InfoLab}
+}
+
+@INPROCEEDINGS{peng2010large,
+  author = {Peng, Daniel and Dabek, Frank},
+  title = {Large-scale incremental processing using distributed transactions
+	and notifications},
+  booktitle = {Proceedings of the 9th USENIX conference on Operating systems design
+	and implementation},
+  year = {2010},
+  pages = {1--15},
+  organization = {USENIX Association}
+}
+
+@INPROCEEDINGS{peng2010large,
+  author = {Peng, D. and Dabek, F.},
+  title = {Large-scale incremental processing using distributed transactions
+	and notifications},
+  booktitle = {Proceedings of the 9th USENIX conference on Operating systems design
+	and implementation},
+  year = {2010},
+  pages = {1--15},
+  organization = {USENIX Association}
+}
+
+@INPROCEEDINGS{power2010piccolo,
+  author = {Power, R. and Li, J.},
+  title = {Piccolo: building fast, distributed programs with partitioned tables},
+  booktitle = {Proceedings of the 9th USENIX conference on Operating systems design
+	and implementation},
+  year = {2010},
+  pages = {1--14},
+  organization = {USENIX Association},
+  url = {http://www.usenix.org/event/osdi10/tech/full_papers/Power.pdf}
+}
+
+@INPROCEEDINGS{rabuzin2007theory,
+  author = {Rabuzin, K. and Malekovi{\'c}, M. and Lovren{\v{c}}i{\'c}, A.},
+  title = {The Theory of Active Databases vs. The SQL Standard},
+  booktitle = {The Proceedings of 18th International Conference on Information and
+	Intelligent Systems},
+  year = {2007},
+  pages = {49--54}
+}
+
+@MISC{rackspaceiaas,
+  author = {RackSpace},
+  title = {http://www.rackspace.com/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.21}
+}
+
+@MISC{redis,
+  author = {Redis},
+  title = {http://redis.io/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.21}
+}
+
+@ELECTRONIC{urlfacebookmemcached,
+  author = {Paul Saab},
+  month = {11},
+  year = {2008},
+  title = {Memcache Scaling in Facebook. https://www.facebook.com/note.php?noteid=39391378919},
+  address = {https://www.facebook.com/note.php?noteid=39391378919},
+  url = {https://www.facebook.com/note.php?noteid=39391378919}
+}
+
+@MISC{Sandberg85designand,
+  author = {Russel Sandberg and David Goldberg and Steve Kleiman and Dan Walsh
+	and Bob Lyon},
+  title = {Design and Implementation or the Sun Network Filesystem},
+  year = {1985}
+}
+
+@INPROCEEDINGS{schlageter1988oops,
+  author = {Schlageter, G. and Unland, R. and Wilkes, W. and Zieschang, R. and
+	Maul, G. and Nagl, M. and Meyer, R.},
+  title = {OOPS-an object oriented programming system with integrated data management
+	facility},
+  booktitle = {Data Engineering, 1988. Proceedings. Fourth International Conference
+	on},
+  year = {1988},
+  pages = {118--125},
+  organization = {IEEE}
+}
+
+@MISC{hadooptuning,
+  author = {Sanjay Sharma},
+  title = {http://www.slideshare.net/ImpetusInfo/ppt-on-advanced-hadoop-tuning-n-optimisation},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.28}
+}
+
+@ARTICLE{shvachko2011apache,
+  author = {Shvachko, Konstantin V},
+  title = {Apache Hadoop: The scalability update},
+  journal = {login: The Magazine of USENIX},
+  year = {2011},
+  volume = {36},
+  pages = {7--13},
+  owner = {daidong},
+  timestamp = {2013.05.07}
+}
+
+@ARTICLE{smola2010architecture,
+  author = {Smola, A. and Narayanamurthy, S.},
+  title = {An architecture for parallel topic models},
+  journal = {Proceedings of the VLDB Endowment},
+  year = {2010},
+  volume = {3},
+  pages = {703--710},
+  number = {1-2},
+  publisher = {VLDB Endowment}
+}
+
+@INPROCEEDINGS{stoica2001chord,
+  author = {Stoica, Ion and Morris, Robert and Karger, David and Kaashoek, M
+	Frans and Balakrishnan, Hari},
+  title = {Chord: A scalable peer-to-peer lookup service for internet applications},
+  booktitle = {ACM SIGCOMM Computer Communication Review},
+  year = {2001},
+  volume = {31},
+  number = {4},
+  pages = {149--160},
+  organization = {ACM}
+}
+
+@ARTICLE{stonebraker1988postgres,
+  author = {Stonebraker, M. and Hanson, E.N. and Potamianos, S.},
+  title = {The POSTGRES rule manager},
+  journal = {Software Engineering, IEEE Transactions on},
+  year = {1988},
+  volume = {14},
+  pages = {897--907},
+  number = {7},
+  publisher = {IEEE}
+}
+
+@ARTICLE{vogels2009eventually,
+  author = {Vogels, Werner},
+  title = {Eventually consistent},
+  journal = {Communications of the ACM},
+  year = {2009},
+  volume = {52},
+  pages = {40--44},
+  number = {1},
+  publisher = {ACM},
+  url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.187.8545&rep=rep1&type=pdf}
+}
+
+@INPROCEEDINGS{weil2006ceph,
+  author = {Weil, S.A. and Brandt, S.A. and Miller, E.L. and Long, D.D.E. and
+	Maltzahn, C.},
+  title = {Ceph: A scalable, high-performance distributed file system},
+  booktitle = {Proceedings of the 7th Symposium on Operating Systems Design and
+	Implementation (OSDI)},
+  year = {2006},
+  pages = {307--320},
+  url = {https://www.usenix.org/legacyurl/osdi-06-paper-4}
+}
+
+@INPROCEEDINGS{xie2010improving,
+  author = {Xie, J. and Yin, S. and Ruan, X. and Ding, Z. and Tian, Y. and Majors,
+	J. and Manzanares, A. and Qin, X.},
+  title = {Improving mapreduce performance through data placement in heterogeneous
+	hadoop clusters},
+  booktitle = {Parallel \& Distributed Processing, Workshops and Phd Forum (IPDPSW),
+	2010 IEEE International Symposium on},
+  year = {2010},
+  pages = {1--9},
+  organization = {IEEE}
+}
+
+@INPROCEEDINGS{5360285,
+  author = {Wei Xu and Ling Huang and Fox, A. and Patterson, D. and Jordan, M.},
+  title = {Online System Problem Detection by Mining Patterns of Console Logs},
+  booktitle = {Data Mining, 2009. ICDM '09. Ninth IEEE International Conference
+	on},
+  year = {2009},
+  pages = {588 -597},
+  month = {dec.},
+  doi = {10.1109/ICDM.2009.19},
+  issn = {1550-4786},
+  keywords = {Computerized monitoring;Condition monitoring;Data mining;Machine learning;Principal
+	component analysis;Software maintenance;Statistical learning;USA
+	Councils;Web and internet services;Web server;data mining;learning
+	(artificial intelligence);statistical analysis;203-node Hadoop cluster;anomaly
+	detection;console logs;data mining patterns;distribution estimation;execution
+	patterns;frequent pattern mining;online setting;online system problem
+	detection;principal component analysis;real system data;stage detection
+	system;statistical learning method;console logs;logs;monitoring;pattern
+	mining;problem detection;system management;}
+}
+
+@INPROCEEDINGS{Xu:2009:DLS:1629575.1629587,
+  author = {Xu, Wei and Huang, Ling and Fox, Armando and Patterson, David and
+	Jordan, Michael I.},
+  title = {Detecting large-scale system problems by mining console logs},
+  booktitle = {Proceedings of the ACM SIGOPS 22nd symposium on Operating systems
+	principle},
+  year = {2009},
+  series = {SOSP '09},
+  pages = {117--132},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  acmid = {1629587},
+  doi = {10.1145/1629575.1629587},
+  isbn = {978-1-60558-752-3},
+  keywords = {console log analysis, monitoring, pca, problem detection, source code
+	analysis, statistical learning, tracing},
+  location = {Big Sky, Montana, USA},
+  numpages = {16},
+  url = {http://doi.acm.org/10.1145/1629575.1629587}
+}
+
+@INPROCEEDINGS{yang2007map,
+  author = {Yang, H. and Dasdan, A. and Hsiao, R.L. and Parker, D.S.},
+  title = {Map-reduce-merge: simplified relational data processing on large
+	clusters},
+  booktitle = {Proceedings of the 2007 ACM SIGMOD international conference on Management
+	of data},
+  year = {2007},
+  pages = {1029--1040},
+  organization = {ACM},
+  url = {http://www.cs.duke.edu/courses/cps399.28/current/papers/sigmod07-YangDasdanEtAl-map_reduce_merge.pdf}
+}
+
+@INPROCEEDINGS{Zaharia2010,
+  author = {Zaharia, M. and Borthakur, D. and Sen Sarma, J. and Elmeleegy, K.
+	and Shenker, S. and Stoica, I.},
+  title = {Delay scheduling: a simple technique for achieving locality and fairness
+	in cluster scheduling},
+  booktitle = {Proceedings of the 5th European conference on Computer systems},
+  year = {2010},
+  pages = {265--278},
+  organization = {ACM}
+}
+
+@INPROCEEDINGS{zaharia2011resilient,
+  author = {Zaharia, M. and Chowdhury, M. and Das, T. and Dave, A. and Ma, J.
+	and McCauley, M. and Franklin, M. and Shenker, S. and Stoica, I.},
+  title = {Resilient distributed datasets: A fault-tolerant abstraction for
+	in-memory cluster computing},
+  booktitle = {Proceedings of the 9th USENIX conference on Networked Systems Design
+	and Implementation},
+  year = {2011},
+  file = {:research/Vanth/Spark/Resilient Distributed Datasets- A Fault-Tolerant Abstraction for  In-Memory Cluster Computing.pdf:PDF}
+}
+
+@INPROCEEDINGS{zaharia2010spark,
+  author = {Zaharia, M. and Chowdhury, M. and Franklin, M.J. and Shenker, S.
+	and Stoica, I.},
+  title = {Spark: cluster computing with working sets},
+  booktitle = {Proceedings of the 2nd USENIX conference on Hot topics in cloud computing},
+  year = {2010},
+  pages = {10--10},
+  organization = {USENIX Association},
+  file = {:research/Vanth/Spark/Spark- Cluster Computing with Working Sets.pdf:PDF}
+}
+
+@INPROCEEDINGS{zaharia2011datacenter,
+  author = {Zaharia, M. and Hindman, B. and Konwinski, A. and Ghodsi, A. and
+	Joesph, A.D. and Katz, R. and Shenker, S. and Stoica, I.},
+  title = {The datacenter needs an operating system},
+  booktitle = {Proceedings of the 3rd USENIX conference on Hot topics in cloud computing},
+  year = {2011},
+  pages = {17--17},
+  organization = {USENIX Association}
+}
+
+@INPROCEEDINGS{zaharia2008improving,
+  author = {Zaharia, M. and Konwinski, A. and Joseph, A.D. and Katz, R. and Stoica,
+	I.},
+  title = {Improving mapreduce performance in heterogeneous environments},
+  booktitle = {Proceedings of the 8th USENIX conference on Operating systems design
+	and implementation},
+  year = {2008},
+  pages = {29--42}
+}
+
+@INPROCEEDINGS{zhang2011priter,
+  author = {Zhang, Y. and Gao, Q. and Gao, L. and Wang, C.},
+  title = {Priter: a distributed framework for prioritized iterative computations},
+  booktitle = {Proceedings of the 2nd ACM Symposium on Cloud Computing},
+  year = {2011},
+  pages = {13},
+  organization = {ACM},
+  url = {http://rio.ecs.umass.edu/mnilpub/papers/socc11-zhang.pdf}
+}
+
+@ARTICLE{zhou2008large,
+  author = {Zhou, Y. and Wilkinson, D. and Schreiber, R. and Pan, R.},
+  title = {Large-scale parallel collaborative filtering for the netflix prize},
+  journal = {Algorithmic Aspects in Information and Management},
+  year = {2008},
+  pages = {337--348},
+  publisher = {Springer}
+}
+
+@MISC{hadoopconfexample,
+  title = {[Cluster Setup:Configure Hadoop] http://hadoop.apache.org/docs/r0.19.1/cluster\_setup.html},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.04.28}
+}
+
+@CONFERENCE{hbaseproject,
+  title = {HBase Project},
+  booktitle = {http://hbase.apache.org},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.02.05}
+}
+
+@CONFERENCE{mahoutproject,
+  title = {Mahout Project},
+  booktitle = {http://mahout.apache.org},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.02.05}
+}
+
+@CONFERENCE{stormproject,
+  title = {Storm Project},
+  booktitle = {http://storm-project.net/},
+  owner = {daidong},
+  quality = {1},
+  timestamp = {2013.02.05}
+}
+

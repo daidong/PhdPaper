@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces 数据中心请求各个步骤的时间估计\relax }}{5}{table.caption.6}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces 典型的Hadoop集群的规模\cite {hadooppowerby}\relax }}{11}{table.caption.7}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Hadoop中参数的统计分析情况\relax }}{15}{table.caption.8}
+\contentsline {table}{\numberline {2.3}{\ignorespaces 模糊逻辑输出参数列表\relax }}{19}{table.caption.13}
+\contentsline {table}{\numberline {2.4}{\ignorespaces 同构集群的节点参数\relax }}{21}{table.caption.18}
+\contentsline {table}{\numberline {2.5}{\ignorespaces 运行25G Terasort所花费的时间\relax }}{22}{table.caption.19}
+\contentsline {table}{\numberline {2.6}{\ignorespaces 同构集群的节点参数\relax }}{22}{table.caption.20}
+\contentsline {table}{\numberline {2.7}{\ignorespaces 运行25G Terasort 同构和异构配置的性能对比\relax }}{22}{table.caption.21}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces 2012年完全使用内存构造海量存储的成本以及2020年的预估\cite {ousterhout2010case}\relax }}{32}{table.caption.28}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Sedna存储系统使用的主要技术列表\relax }}{35}{table.caption.30}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces HBase中表\textit {WBContent}的结构\relax }}{71}{table.caption.49}
+\contentsline {table}{\numberline {4.2}{\ignorespaces HBase中表\textit {WBUser}的结构\relax }}{71}{table.caption.49}
+\contentsline {table}{\numberline {4.3}{\ignorespaces HBase中\textit {webpages}表结构\relax }}{90}{table.caption.55}
+\contentsline {table}{\numberline {4.4}{\ignorespaces HBase中表\textit {pr-acc}的结构\relax }}{91}{table.caption.57}
+\contentsline {table}{\numberline {4.5}{\ignorespaces HBase中的\textit {rating-table}表结构\relax }}{93}{table.caption.59}
+\contentsline {table}{\numberline {4.6}{\ignorespaces ALS聚合表的结构\relax }}{93}{table.caption.60}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 

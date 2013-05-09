@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: PhdThesis.aux
+A level-1 auxiliary file: chapter/abstract.aux
+A level-1 auxiliary file: chapter/chap-intro.aux
+A level-1 auxiliary file: chapter/chap-hadoop.aux
+A level-1 auxiliary file: chapter/chap-sedna.aux
+A level-1 auxiliary file: chapter/chap-domino.aux
+A level-1 auxiliary file: chapter/chap-conclusion.aux
+The style file: ustcbib.bst
+A level-1 auxiliary file: chapter/chap-appendix.aux
+A level-1 auxiliary file: chapter/thanks.aux
+A level-1 auxiliary file: chapter/pub.aux
+Database file #1: bib/tex.bib
+Repeated entry---line 741 of file bib/tex.bib
+ : @inproceedings{peng2010large
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "urlfacebookmemcached" isn't style-file defined
+--line 788 of file bib/tex.bib
+Warning--can't use both volume and number fields in ghemawat2003google
+Warning--can't use both volume and number fields in decandia2007dynamo
+Warning--empty journal in page1999pagerank
+Warning--empty author in hbaseproject
+Warning--there's a publisher but no address in klir1995fuzzy
+Warning--can't use both volume and number fields in Ghemawat2003
+Warning--empty booktitle in nishtala2013scaling
+Warning--can't use both volume and number fields in stoica2001chord
+Warning--can't use both volume and number fields in andrews1987combining
+Warning--empty journal in bertsekas1989parallel
+Warning--empty booktitle in gonzalez2009residual
+Warning--empty author in mahoutproject
+Warning--empty author in stormproject
+You've used 98 entries,
+            2219 wiz_defined-function locations,
+            1047 strings with 22093 characters,
+and the built_in function-call counts, 48192 in all, are:
+= -- 4916
+> -- 1131
+< -- 48
++ -- 532
+- -- 264
+* -- 3565
+:= -- 6209
+add.period$ -- 245
+call.type$ -- 98
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 111
+duplicate$ -- 3528
+empty$ -- 5099
+format.name$ -- 335
+if$ -- 11215
+int.to.chr$ -- 0
+int.to.str$ -- 98
+missing$ -- 79
+newline$ -- 606
+num.names$ -- 94
+pop$ -- 500
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1063
+stack$ -- 0
+substring$ -- 6206
+swap$ -- 407
+text.length$ -- 48
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 13
+while$ -- 526
+width$ -- 100
+write$ -- 1155
+(There was 1 error message)

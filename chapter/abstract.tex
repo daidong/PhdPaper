@@ -1,0 +1,44 @@
+\begin{abstract}
+
+过去的五年里，云计算相关领域得到了长足的发展。随着云计算对人们生活的影响越来越深入，其将最终使得计算和存储成为一种资源，像水、电一样渗透到人们生活的各个方面。与此同时，新的应用需求不断出现，比如实时搜索，在线推荐系统，社交网络分析等，给云计算领域带来了新的挑战。这些挑战主要包括以下几个方面：1）新型的应用对数据存储量的要求更大；2）应用对数据随机访问的速度越来越高；3）应用的复杂度和实时性要求越来越高。比如典型的推荐系统，搜索引擎，社交分析等应用所处理的数据往往是无结构的原始数据，这使得大部分的访问模式是随机的。应用需要在较快的时间内产生处理结果，因此对访问速度要求较高。除此之外，这些应用的计算过程中通常包括大量的迭代计算过程，并且这些迭代过程中的多轮之间通常有强依赖性，使得计算过程越来越复杂。有效的编写这样的应用需要计算模型的支持，而提高这类应用的执行速度则需要运行时系统的支持。在这些挑战的驱动下，近年来出现了不少新型的存储系统和计算模型，但是依旧存在许多问题亟待解决。
+
+本文基于在云计算平台中出现的新型应用的需求，对云计算的基础软件架构进行了深入的研究，主要工作包括对现有架构的优化配置以提高其性能，针对海量数据的高速随机写需求设计并实现了完全基于内存的数据持久的分布式存储系统，针对复杂的实时应用设计并实现了一个基于触发器的通用计算模型。具体来说，本文的主要工作和贡献如下：
+
+\begin{enumerate}
+
+  \item 研究了大规模Hadoop集群的配置方法，提出了一种基于模糊逻辑的 Hadoop 集群异构配置工具。
+  
+该工具使用模糊逻辑算法, 将正在异构集群中服务器的各种硬件参数以及历史运行数据作为模糊输入，根据模糊规则自动生成参数配置最终提高 Hadoop 集群本身中任务的执行速度。通过将传统的 Hadoop 集群配置中优化参数的方法转变成了优化规则的方法，极大的降低了配置集群的成本。实验表明，该模糊规则工具根据异构集群的多项指标生成的参数配置能够有效的提高应用的执行速度。
+
+  \item 针对海量数据的高速随机写需求设计并实现了完全基于内存的数据持久的分布式存储系统Sedna。
+  
+在Sedna中，我们提出了一种基于层次化的集群管理方案，通过和分布式哈希算法的结合，提高了集群的可扩展性以及进行动态负载均衡的灵活性。除此之外，我们还在传统的存储系统API的基础上，设计并且实现了专用于实时应用 的实时访问API来进一步提高存储系统对实时应用的支持。实验证明，Sedna存储系统具有和内存缓存系统相近的速度却能够保证数据的可靠性，与此同时，实时API也明显的提高了应用对数据更新的响应速度。
+
+  \item 针对复杂的实时应用设计并实现了一个基于触发器的通用计算模型Domino。
+  
+  在Domino的设计和实现中，针对递增模型下触发器执行过程中的同步需求，我们提出了聚合模式来进行同步操作。并且引入了最终同步模型，很好的解决了分布式的纯异步的触发器模型如何进行数据同步的问题；通过引入多种同步模型（完全异步、最终同步、严格同步），我们为开发人员提供了灵活的选择方案。在 Domino 中，我们提出了基于多版本数据管理的容错以及恢复的策略，对于执行过程中的错误可以实现实时恢复进一步提高了Domino的可用性。通过将多个典型的复杂应用在 Domino 上进行实现并进行比较，证明了 Domino 具备非常好的扩放性并且在复杂的计算应用中，其性能优于传统 MapReduce 模型。
+
+\end{enumerate}
+
+\keywords{云计算基础软件架构，分布式存储系统，编程模型，计算框架，实时应用}
+\end{abstract}
+
+
+\begin{eabstract}
+
+In the past five years, cloud computing has been dramatically developed because their widely usage in industry. Along with variable kinds of applications began to appear in cloud, cloud computing became more and more common in people's diary life. However, some new applications like realtime searching, online recommendation, social network analysis etc. still give us challenges: 1) all these applications need to process huge amount of dataset, which give the storage systems lots of pressure on scalability. For example, the realtime search engine needs to process information from different sources and \textit{mesh-up} them to generate results that users may be interested with, so all this info needs to be stored. 2) They needs a higher random data access speed as they need to produce final results in in \textit{realtime} fashion. The random data access pattern is necessary as most input datasets are small, fragile, raw data, it is hard to construct these data pieces into a continuous large data block. 3) The computation is much more complex than traditional applications. Most of these applications included machine learning or data mining algorithms, which need lots of iterative and incremental computations. Besides, due to the \textit{realtime} requirement of these applications, they need to be more sensitive to the new data. Based on these challenges, there are some new storage systems and programming models appearing recently, however, the main problems still have not solved well.
+
+In this paper, we study the cloud software infrastructure in different aspects to build a complete framework for these applications, the main works and contributions of this paper include:
+
+\begin{enumerate}
+
+  \item We propose a new auto-configuration tool for heterogeneous Hadoop cluster. This tool collect all the hardware parameters and history execution information as the input of our fuzzy algorithm, and produce a collection of corrent Hadoop configuration to accelerate the MapReduce job execution speed in Hadoop. Our solution change the way of configuring Hadoop from optimzing the parameter to optimizing the fuzzy rules. The experiments show our tool improve the Hadoop cluster performance dramatically especially for the heterogenous cluster.
+
+  \item In our memory based distributed keyvalue storage system (Senda), we propose a new hierarchical architecture for distributed stroage systems. Woring with the new distribtued hash algorithm proposed in Sedna, this new architecture improved the scalability and the flexibility of load balance in Sedna. Besides, we propose a new API suit for realtim applications, which is much more sensitive to data modification than traditional API. The experiments show that Domino can archieve a much better performance than current disk-based distributed storage systems and be comparable with the widely used memory cache system.
+
+  \item We extend the long history trigger-based programming model into the distributed computing area with some new ideas. Domino is a trigger-based genenral distributed programming model in cloud. To overcome the limitations of traditional trigger-based models, we propose a eventually synchronous model to solve the problem that how different actions synchronize their executions. Besides, through introducing different synchronization models (asynchronous, evenutally synchronous, strict synchronous), Domino provides developers flexbile solutions for their needs. In Domino, we also propose a \textit{realtime} recovery concepts and implementation which we beleive dramatically improve the scalaibility and speed of distributed computation. We implement different applications in Domino and compare their performance, the experiment results show that our Domino framework keep a good scalability and better performance than traditional MapReduce based solutions.
+
+\end{enumerate}
+
+\ekeywords{Cloud Computing, Software Infrastructure, Distributed Storage, Programming Model, Computation Framework, Realtime Applications}
+\end{eabstract}

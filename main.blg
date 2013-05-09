@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: chapter/abstract.aux
+A level-1 auxiliary file: chapter/chap-intro.aux
+A level-1 auxiliary file: chapter/chap-hadoop.aux
+A level-1 auxiliary file: chapter/chap-sedna.aux
+A level-1 auxiliary file: chapter/chap-domino.aux
+A level-1 auxiliary file: chapter/chap-conclusion.aux
+The style file: ustcbib.bst
+A level-1 auxiliary file: chapter/chap-appendix.aux
+A level-1 auxiliary file: chapter/thanks.aux
+A level-1 auxiliary file: chapter/pub.aux
+Database file #1: bib/tex.bib
+Repeated entry---line 339 of file bib/tex.bib
+ : @article{gilbert2002brewer
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "urlfacebookmemcached" isn't style-file defined
+--line 711 of file bib/tex.bib
+Warning--I didn't find a database entry for "hbaseperfeval"
+Warning--can't use both volume and number fields in ghemawat2003google
+Warning--can't use both volume and number fields in decandia2007dynamo
+Warning--empty journal in page1999pagerank
+Warning--empty author in hbaseproject
+Warning--can't use both volume and number fields in Ghemawat2003
+Warning--can't use both volume and number fields in andrews1987combining
+Warning--empty journal in bertsekas1989parallel
+Warning--empty booktitle in gonzalez2009residual
+Warning--empty author in mahoutproject
+Warning--empty booktitle in nishtala2013scaling
+Warning--can't use both volume and number fields in stoica2001chord
+Warning--empty author in stormproject
+You've used 89 entries,
+            2219 wiz_defined-function locations,
+            1009 strings with 21036 characters,
+and the built_in function-call counts, 44518 in all, are:
+= -- 4549
+> -- 1050
+< -- 45
++ -- 494
+- -- 245
+* -- 3297
+:= -- 5728
+add.period$ -- 226
+call.type$ -- 89
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 101
+duplicate$ -- 3268
+empty$ -- 4693
+format.name$ -- 311
+if$ -- 10370
+int.to.chr$ -- 0
+int.to.str$ -- 89
+missing$ -- 71
+newline$ -- 552
+num.names$ -- 85
+pop$ -- 458
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 992
+stack$ -- 0
+substring$ -- 5734
+swap$ -- 386
+text.length$ -- 45
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 12
+while$ -- 484
+width$ -- 91
+write$ -- 1052
+(There was 1 error message)
